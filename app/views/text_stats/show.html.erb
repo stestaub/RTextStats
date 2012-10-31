@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @text_stat.name %>
+</p>
+
+<p>
+  <b>Content:</b>
+  <%= @text_stat.content %>
+</p>
+<p>
+  <b>Stats</b>
+  <img src="/images/<%= @text_stat.id %>/barplot.jpg">
+</p>
+
+
+<%= link_to 'Edit', edit_text_stat_path(@text_stat) %> |
+<%= link_to 'Back', text_stats_path %>

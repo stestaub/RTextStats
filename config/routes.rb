@@ -1,4 +1,6 @@
 Rstats::Application.routes.draw do
+  resources :text_stats
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
