@@ -7,6 +7,7 @@ gem 'rails', '3.2.6'
 
 gem 'sqlite3'
 gem 'rinruby'
+gem 'bootstrap-sass', '2.0.0'
 
 
 # Gems used only for assets and not required
